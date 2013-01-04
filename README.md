@@ -34,6 +34,7 @@ And, if simply it easier generate code, than write (for long cond, for example)
        (this-function-returns-generated-code))
        
 Or you may use it for macro-expansion time evaluation.
+
     (devfar sin1 (template () () (sin 1)))
     
 will evaluate (sin 1) at compile-time and put the result as a constant value to defvar.
