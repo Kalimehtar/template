@@ -32,3 +32,9 @@ And, if simply it easier generate code, than write (for long cond, for example)
 
     (template () ()
        (this-function-returns-generated-code))
+
+Package TEMPLATE exports two symbols. You may either import template:template or simply use
+
+    (template:! ...)
+    
+The package is not intended to be in USE-PACKAGE
